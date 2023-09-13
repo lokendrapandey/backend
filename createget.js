@@ -8,7 +8,7 @@ const lnctstudentSchema = ({
     year:Number
 })
 
-const db = mongoose.model("db",lnctstudentSchema);
+const db = mongoose.model("dbs",lnctstudentSchema);
 
 const app = express();
 app.use(express.json()); // convert into json
